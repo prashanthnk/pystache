@@ -10,4 +10,4 @@ rm -f pep8.log pyflakes.log
 ./test.py
 
 pep8 --max-line-length=120 pystache > pep8.log || true
-pylint pystache > pyflakes.log || true
+pylint pystache > pylint.log || true
